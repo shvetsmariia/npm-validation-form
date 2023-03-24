@@ -1,0 +1,29 @@
+{
+  "name": "npm-validation-form",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "lite-server",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shvetsmariia/npm-validation-form.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shvetsmariia/npm-validation-form/issues"
+  },
+  "homepage": "https://github.com/shvetsmariia/npm-validation-form#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1",
+    "webpack": "^5.76.2",
+    "webpack-cli": "^5.0.1"
+  },
+  "dependencies": {
+    "login-form-validator": "^1.0.0"
+  }
+}

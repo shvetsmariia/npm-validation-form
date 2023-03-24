@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./styles.css" rel="stylesheet">
+    <title>Validation Form</title>
+</head>
+<body onload='document.getElementById("name").focus()'>
+    <div class="registrationForm">
+        <h2>Validation Form</h2>
+        <form class="formWithValidation" name="form" id="form">  
+            <div>
+                <label>Name:</label>
+                <input type="text" class="name" id="name">
+            </div>
+            <div>
+                <label>Phone:</label>
+                <input type="tel" class="phone" id="phone">
+            </div>
+            <div>
+                <label>Email:</label>
+                <input type="email" class="email" id="email" name="email">
+            </div>
+            <div>
+                <label>Password:</label>
+                <input type="password" class="password" id="password">
+            </div>
+            <div class="button">
+                <button type="button" name="submit" class="registerButton" id="registerButton">Register</button>
+            </div>
+        </form>  
+    </div>
+    <script src="dist/main.js"></script>
+</body>
+</html>

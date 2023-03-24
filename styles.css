@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+}
+
+body {  
+    position: relative;
+    font-family: sans-serif;
+    margin: 0;  
+    padding: 15vh 50px; 
+    background-color: white;
+}  
+
+h2 {
+    text-align: center;
+    margin: 0 0 40px 0;
+}
+  
+.registrationForm {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 300px;
+    max-width: 500px;
+    padding: 40px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 0 40px #2FA540;
+}
+
+.formWithValidation {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.formWithValidation div:not(:last-child) {
+    margin-bottom: 50px;
+}
+
+.formWithValidation div label, input {
+    display: flex;
+    font-size: 18px;
+}
+
+.formWithValidation div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.formWithValidation div.button {
+    justify-content: center;
+}
+
+.registerButton {
+    padding: 15px 30px;
+    font-size: 20px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    background-color: #2FA540;
+    color: white;
+}
+
+.registerButton:hover {
+    border: 1px solid #2FA540;
+    border-radius: 5px;
+    background-color: transparent;
+    color: #2FA540; 
+}
+
+input {
+    outline: none; 
+}
+
+input.valid {
+    outline: 2px solid #2FA540;
+}
+
+input.invalid {
+    outline: 2px solid red;
+}
